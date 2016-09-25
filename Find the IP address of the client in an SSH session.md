@@ -1,7 +1,7 @@
 #Find the IP address of the client in an SSH session
 
 
-server:~# pinky
+	server:~# pinky
 that will give to you somehting like this:
 
 Login      Name                 TTY    Idle   When                 Where 
@@ -10,14 +10,14 @@ root       root                 pts/0         2009-06-15 13:41     192.168.1.133
 
 
 
-$ w
- 21:12:09 up 6 days,  7:42,  1 user,  load average: 0.27, 1.08, 1.64
-USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
-h3xx     pts/11   192.168.1.3      21:12    2.00s  0.04s  0.04s -bash
+	$ w
+	 21:12:09 up 6 days,  7:42,  1 user,  load average: 0.27, 1.08, 1.64
+	USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+	h3xx     pts/11   192.168.1.3      21:12    2.00s  0.04s  0.04s -bash
 
 
 
-last -f wtmp.1
+	last -f wtmp.1
 
 
 
