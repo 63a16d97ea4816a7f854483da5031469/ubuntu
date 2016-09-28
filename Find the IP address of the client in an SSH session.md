@@ -1,4 +1,4 @@
-#Find the IP address of the client in an SSH session
+#Find the Login Users' IP address of the client in an SSH session
 
 
 	server:~# pinky
